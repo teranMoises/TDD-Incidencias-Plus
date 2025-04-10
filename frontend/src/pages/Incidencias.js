@@ -122,7 +122,7 @@ const Incidencias = () => {
     <div className="incidencias-container">
       <div className="incidencias-header">
         <div className="header-left">
-          <Link to="/" className="back-link">
+          <Link to="/dashboard" className="back-link">
             <i className="fas fa-arrow-left"></i> Volver a Empresas
           </Link>
           <h2>
