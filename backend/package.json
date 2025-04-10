@@ -1,0 +1,37 @@
+{
+  "name": "tdd-incidencias",
+  "version": "0.9.0",
+  "description": "Test Driven Development (TDD) aplicado a la Gestión de Incidencias",
+  "keywords": [
+    "Gestion de Incidencias",
+    "Auditorias",
+    "TDD",
+    "TI"
+  ],
+  "homepage": "https://github.com/teranMoises/TDD-Incidencias-Plus#readme",
+  "bugs": {
+    "url": "https://github.com/teranMoises/TDD-Incidencias-Plus/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teranMoises/TDD-Incidencias-Plus.git"
+  },
+  "license": "ISC",
+  "author": "Moisés Terán",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "mongoose": "^8.13.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
