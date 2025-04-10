@@ -28,6 +28,7 @@
 .navigation ul {
     display: flex;
     list-style: none;
+    align-items: center;
 }
 
 .navigation li {
